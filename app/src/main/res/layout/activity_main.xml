@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:text="first number" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="32"
+                    android:text="first number" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:text="first number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:text="second number" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="32"
+                    android:text="second number" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:text="second number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/sum3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:ems="10"
+                    android:hint="sum"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/sum2"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="32"
+                    android:ems="10"
+                    android:hint="sum"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/sum1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:ems="10"
+                    android:hint="sum"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    app:srcCompat="@drawable/gob" />
+
+                <ImageView
+                    android:id="@+id/iv2"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="32"
+                    app:srcCompat="@drawable/gob" />
+
+                <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    app:srcCompat="@drawable/gob" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/check3"
+                    android:layout_width="0px"
+                    android:onClick="thirdcheck"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:text="check" />
+
+                <Button
+                    android:id="@+id/check2"
+                    android:layout_width="0px"
+                    android:onClick="secondcheck"
+                    android:layout_height="match_parent"
+                    android:layout_weight="32"
+                    android:text="check" />
+
+                <Button
+                    android:id="@+id/check1"
+                    android:layout_width="0px"
+                    android:onClick="firstcheck"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34"
+                    android:text="check" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/newgame"
+                android:layout_width="match_parent"
+                android:onClick="game"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:text="start" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="40" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="10" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
